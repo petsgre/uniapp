@@ -1,0 +1,6 @@
+<!--pages/flow/flow.wxml-->
+<text>pages/flow/flow.wxml</text>
+<view>
+    <view wx:for="{{list}}" wx:key="id">
+        {{item.userId}}</view>
+</view>
